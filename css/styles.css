@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
     background-color: #fff;
 
 }
@@ -10,7 +10,8 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -19,7 +20,8 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -28,24 +30,24 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2e2f42
+    
 }
 
-.email {
+.adress {
+    font-style: normal;
+}
+
+.contacts {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-.phone {
-    font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #434455;
-}
 
 .hero {
     background-color: #2e2f42;
@@ -56,8 +58,9 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         text-align: center;
+        letter-spacing: 0.02em;
         color: #fff;
 }
 
@@ -66,9 +69,18 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
     cursor: pointer;
+}
+
+button:hover {
+    color: #404BBF;
+}
+
+button:focus {
+    color: #404BBF;
 }
 
 .section-one {
@@ -81,6 +93,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -89,6 +102,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -96,8 +110,9 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -107,6 +122,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -116,6 +132,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -123,8 +140,22 @@ body {
     background: #fff;
 }
 
+.our-portfolio {
+    background-color: #f4f4fd;
+}
+
 .some-portfolio {
     background-color: #fff;
+}
+
+.title-portfolio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .header-portfolio {
@@ -132,6 +163,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -140,6 +172,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -148,6 +181,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #f4f4fd;
 }
 
@@ -159,7 +193,8 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
@@ -168,7 +203,8 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
 }
