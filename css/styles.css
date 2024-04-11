@@ -76,17 +76,12 @@ body {
 }
 
 button:hover {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
-
-.section-one {
-    display: none;
-}
-
 
 .features-header {
     font-family: "Roboto", sans-serif;
@@ -104,6 +99,11 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.main-team {
+    background-color: #F4F4FD;
+    text-transform: capitalize;
 }
 
 .our-team {
@@ -142,6 +142,7 @@ button:focus {
 
 .our-portfolio {
     background-color: #f4f4fd;
+    text-transform: capitalize;
 }
 
 .some-portfolio {
