@@ -5,16 +5,170 @@ body {
 
 }
 
-.header {
-
-}
-
-.header-logo {
-    font-family: "Raleway" sans-serif;
+.web-logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.studio-logo {
     color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    text-transform: uppercase;
+}
+
+.item-navigation {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42
+}
+
+.email {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.phone {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #434455;
+}
+
+.hero {
+    background-color: #2e2f42;
+    
+}
+
+.hero-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        text-align: center;
+        color: #fff;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background: #4d5ae5;
+    cursor: pointer;
+}
+
+.section-one {
+    display: none;
+}
+
+
+.features-header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.about-features {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.our-team {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.header-card {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.job-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #434455;
+}
+
+.team-card {
+    background: #fff;
+}
+
+.some-portfolio {
+    background-color: #fff;
+}
+
+.header-portfolio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.classification {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.tagline {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f4f4fd;
+}
+
+.footer {
+    background-color: #2e2f42
+}
+
+.footer-web-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-studio-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    text-transform: uppercase;
+    color: #f4f4fd;
 }
